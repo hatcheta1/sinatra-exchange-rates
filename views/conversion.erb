@@ -1,1 +1,9 @@
-<h1>Convert ___ to ___</h1>
+<h1>Convert <%= @original_currency %> to <%= @destination_currency %></h1>
+
+<div>
+  1 <%= @original_currency %> equals <%= @result %> <%= @destination_currency %>.
+</div>
+
+<p>
+  Go <a href="/<%= @original_currency %>">back</a>.
+</p>
